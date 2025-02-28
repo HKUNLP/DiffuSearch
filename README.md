@@ -3,9 +3,9 @@
 This repository contains code for training and evaluating the models in the paper "[Implicit Search via Discrete Diffusion: A Study on Chess](https://arxiv.org/abs/2502.19805)".
 
 TLDR: 
-- We proposes DiffuSearch, a novel method to enhance the planning abilities of Large Language Models without relying on explicit search methods such as MCTS. 
+- We propose DiffuSearch, a novel method to enhance the planning abilities of Large Language Models without relying on explicit search methods such as MCTS. 
 - By leveraging discrete diffusion modeling, DiffuSearch enables implicit search through future state prediction, demonstrated in the domain of chess. 
-- Our experiments reveal DiffuSearch outperforms both searchless policies and explicit search-enhanced policies in action accuracy and Elo ratings.
+- Our experiments reveal that DiffuSearch outperforms both searchless policies and explicit search-enhanced policies in action accuracy and Elo ratings.
 
 <p align = "center">
 <img src="figs/fig.png" width="45%" alt="pipeline" align=center />
@@ -32,7 +32,7 @@ We provide 10k training games (~656k records) and 1k test games (~62k records) a
 
 ## Usage
 
-Here is a few training and evaluation commands for people who want to train a chess agent. If you just want to play with DiffuSearch, you can skip this part and directly go to https://lichess.org/@/diffusearchv0 and register an lichess account to start a game.
+Here is the command for people who want to train a chess agent. If you just want to play with DiffuSearch, you can skip this part and directly go to https://lichess.org/@/diffusearchv0 and register a lichess account to start a game.
 
 ```
 # train and eval DiffuSearch
