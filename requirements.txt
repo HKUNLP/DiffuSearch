@@ -1,0 +1,8 @@
+transformers==4.37.2
+datasets==2.14.7
+accelerate==0.27.2
+peft==0.6.0
+matplotlib==3.7.0
+wandb==0.14.0
+torch==1.13.1+cu117
+python-chess
