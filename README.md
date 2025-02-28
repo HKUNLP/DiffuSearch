@@ -8,7 +8,7 @@ TLDR:
 - Our experiments reveal DiffuSearch outperforms both searchless policies and explicit search-enhanced policies in action accuracy and Elo ratings.
 
 <p align = "center">
-<img src="figs/fig.png" width="95%" alt="pipeline" align=center />
+<img src="figs/fig.png" width="45%" alt="pipeline" align=center />
 </p>
 <p align = "center">
 Comparison between explicit search via MCTS and implicit search via discrete diffusion. MCTS explicitly performs action selection, state evaluation, and value backup in an iterative manner before determining the next action to take, while discrete diffusion implicitly gathers future information during future imagination to improve the next action prediction.
@@ -39,7 +39,7 @@ Here is a few training and evaluation commands for people who want to train a ch
 bash scripts/train-ddm-s_asa.sh
 ```
 
-# Cases
+## Cases
 <p align = "center">
 <img src="figs/case.png" width="95%" alt="pipeline" align=center />
 </p>
@@ -55,7 +55,7 @@ In the right puzzle, DiffuSearch anticipates an exchange sacrifice, correctly va
 </p>
 More cases can be found in the paper.
 
-# Citation
+## Citation
 If you find our code or data helpful, please cite us as follows:
 ```
 @article{ye2025implicit,
