@@ -28,7 +28,10 @@ pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable
 ```
 
 ## Resource
-We provide 10k training games (~656k records) and 1k test games (~62k records) at `data.zip`. Unzip it and place it at `./data`. More data and checkpoints will be provided soon.
+We provide 10k training games (~656k records) and 1k test games (~62k records) at `data.zip`. Unzip it and place it at `./data`. 
+More data and checkpoints will be provided soon. 
+
+The train and test dataset is also uploaded to huggingface datasets: https://huggingface.co/datasets/jiacheng-ye/chess10k
 
 ## Usage
 
